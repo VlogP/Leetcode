@@ -12,7 +12,7 @@ namespace Leetcode
         {
             var length = flowerbed.Length;
 
-            for ()
+            return true;
     }
     }
 }

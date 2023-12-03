@@ -1,10 +1,14 @@
-﻿namespace ConsoleApp1
+﻿using Leetcode;
+
+namespace ConsoleApp1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var c = new _5_Longest_Palindromic_Substring();
+
+            c.LongestPalindrome("aa");
         }
     }
 }
