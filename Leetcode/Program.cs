@@ -6,9 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var c = new _5_Longest_Palindromic_Substring();
+            var c = new _345_Reverse_Vowels_of_a_String();
 
-            c.LongestPalindrome("aa");
+            c.ReverseVowels("hello");
         }
     }
 }
