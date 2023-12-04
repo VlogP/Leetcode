@@ -34,5 +34,32 @@ namespace Leetcode
 
             return output;
         }
+
+        /*
+         public int[] ProductExceptSelf(int[] nums) {
+        var length = nums.Length;
+        var output = new int[length];
+        var index = 0;
+        var left = 1;
+        var right = 1;
+
+        for(var i = 0; i < length; i++)
+            output[i] = 1;
+
+        while (index < length) 
+        {  
+                    
+            output[index] *= left;
+            left *= nums[index];
+
+            output[length - index - 1] *= right;
+            right *= nums[length - index - 1];
+
+            index++;            
+        }
+
+        return output;
+    }
+         */
     }
 }
