@@ -23,7 +23,6 @@ namespace Leetcode
 
         public int GetGrayCode(int n)
         {
-
             return n ^ (n >> 1);
         }
     }
