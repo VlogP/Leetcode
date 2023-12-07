@@ -34,10 +34,8 @@ namespace Leetcode
             return longestPrefix;
         }
 
-
-
         /*
-                 public string LongestCommonPrefix(string[] strs)
+                         public string LongestCommonPrefix(string[] strs)
         {
             if (strs.Count() == 1) return strs[0];
             if (strs.Count() == 0) return "";
@@ -69,9 +67,11 @@ namespace Leetcode
                     }
                     else
                     {
+
                         if (shortestIndex == count - 1)
                         {
-                            longestPrefix = substring;
+                            if (IsPrefix(strs[index2], substring))
+                                longestPrefix = substring;
                         }
                     }
                 }
