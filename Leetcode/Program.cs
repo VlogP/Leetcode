@@ -6,9 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var c = new _14_Longest_Common_Prefix();
+            var c = new _746_Min_Cost_Climbing_Stairs();
 
-            c.LongestCommonPrefix(new string[] {"ab", "a"});
+            c.MinCostClimbingStairs(new int[] {10,15,20});
         }
     }
 }
