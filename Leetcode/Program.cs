@@ -6,9 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var c = new _746_Min_Cost_Climbing_Stairs();
+            var c = new _49_Group_Anagrams();
 
-            c.MinCostClimbingStairs(new int[] {10,15,20});
+            c.GroupAnagrams(new string[] { "eat", "tea", "tan", "ate", "nat", "bat" });
         }
     }
 }
