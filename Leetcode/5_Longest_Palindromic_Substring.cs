@@ -71,6 +71,7 @@ namespace Leetcode
                     if (isPalindromic && maxLength <= substring.Length)
                     {
                         result = substring;
+                        maxLength = substring.Length;
                     }
                 }
             }                   
