@@ -6,9 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var c = new _49_Group_Anagrams();
+            var c = new _443_String_Compression();
 
-            c.GroupAnagrams(new string[] { "eat", "tea", "tan", "ate", "nat", "bat" });
+            c.Compress(new char[] { 'a', 'b', 'c' });
         }
     }
 }
